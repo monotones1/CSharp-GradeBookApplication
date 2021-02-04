@@ -32,7 +32,7 @@ namespace GradeBook.GradeBooks
         {
             if (Students.Count < 5)
             {
-                throw new InvalidOperationException("Ranked-grading requires a minimum of 5 students to work");
+                Console.WriteLine("Ranked-grading requires a minimum of 5 students to work");
             }
             else
             {
@@ -43,7 +43,7 @@ namespace GradeBook.GradeBooks
         {
             if (Students.Count < 5)
             {
-                throw new InvalidOperationException("Ranked-grading requires a minimum of 5 students to work");
+                Console.WriteLine("Ranked-grading requires a minimum of 5 students to work");
             }
             else
             {
